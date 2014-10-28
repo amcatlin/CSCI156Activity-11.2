@@ -14,6 +14,7 @@ def semesters(subject):
         for course in transcript[key]:
             if subject == str(course[0]):
                 print(key)
+                break
     print('\n')
 
 
